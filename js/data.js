@@ -36,9 +36,9 @@ const TRAVELS = {
         src: "photos/germany/neues-rathaus.jpg",
         title: "New Town Hall (Neues Rathaus)",
         location: "Marienplatz, Munich",
-        year: "1867–1908",
+        year: "1867–1905",
         story: [
-          "Designed by Georg von Hauberrisser and built in three phases between 1867 and 1908, the New Town Hall is one of Germany's finest examples of Gothic Revival architecture.",
+          "Designed by Georg von Hauberrisser and built in three phases between 1867 and 1905 — with the Glockenspiel added in 1908 — the New Town Hall is one of Germany's finest examples of Gothic Revival architecture.",
           "Its 85-metre tower holds the famous Glockenspiel: 43 bells and 32 life-size figures. The upper tier re-enacts the 1568 wedding of Duke Wilhelm V and Renata of Lorraine, complete with a jousting match. The lower tier shows the Coopers' Dance — legend says that after a 16th-century plague, the barrel-makers danced through the streets to coax frightened townspeople back outside.",
           "The golden Virgin Mary on the tall column at the right of the photo crowns the Mariensäule, raised in 1638 — it's where Marienplatz gets its name."
         ]
@@ -49,7 +49,7 @@ const TRAVELS = {
         location: "Max-Joseph-Platz, Munich",
         year: "1818 (rebuilt 1963)",
         story: [
-          "Karl von Fischer's National Theatre opened in 1818, only to burn down in 1823. Leo von Klenze rebuilt it to the original design — the Corinthian portico and pediment are textbook Neoclassicism.",
+          "Karl von Fischer's National Theatre opened in 1818, only to burn down in 1823. Leo von Klenze rebuilt it by 1825, adding the double pediment — the Corinthian portico is textbook Neoclassicism.",
           "It was a key stage for Richard Wagner: both Tristan und Isolde (1865) and Die Meistersinger von Nürnberg (1868) premiered here.",
           "Allied bombing destroyed the theatre in 1943, and it only reopened in 1963. Look closely at the frieze: “APOLLINI MVSISQVE REDDITVM MCMLXIII” — “Restored to Apollo and the Muses, 1963” — marks that rebirth."
         ]
@@ -73,7 +73,7 @@ const TRAVELS = {
         story: [
           "Between 1470 and 1480, Jörg von Halsbach — also the architect of the Frauenkirche — rebuilt the Old Town Hall in its late Gothic form. It became the “old” one in 1874, when the council moved across the square to the New Town Hall.",
           "On the night of 9 November 1938, Joseph Goebbels gave an inflammatory speech in its great hall that unleashed Kristallnacht, the pogrom against Germany's Jews.",
-          "Badly damaged in the Second World War, it was rebuilt to its historic appearance. Today the tower houses a toy museum — I walked right past its entrance that day."
+          "Badly damaged in the Second World War, it was rebuilt in its Gothic form; the tower only returned in 1974. Today the tower houses a toy museum — I walked right past its entrance that day."
         ]
       },
       {
@@ -82,19 +82,19 @@ const TRAVELS = {
         location: "Sendlinger Straße, Munich",
         year: "1733–1746",
         story: [
-          "The Asam brothers — Egid Quirin, a sculptor, and Cosmas Damian, a painter — bought the plot next to their house and built this church with their own money, originally as a private chapel.",
-          "It's only about 8 metres wide, yet packed with gold, marble and frescoes, making it one of the most lavish works of late Baroque in southern Germany. The brothers could reportedly see the altar from their own window.",
+          "The Asam brothers — Egid Quirin, a sculptor, and Cosmas Damian, a painter — built this church without any commission, as their own private chapel — Egid Quirin bought the plots right next to his house for it.",
+          "It's only about 8 metres wide, yet packed with gold, marble and frescoes, making it one of the most lavish works of late Baroque in southern Germany. Egid Quirin could even see the high altar through a window in his own house.",
           "Public pressure eventually forced them to open it to everyone, and it's now one of Munich's favourite hidden gems."
         ]
       },
       {
         src: "photos/germany/michaelskirche.jpg",
         title: "St. Michael's Church",
-        location: "Kaufingerstraße, Munich",
+        location: "Neuhauser Straße, Munich",
         year: "1583–1597",
         story: [
           "Duke Wilhelm V of Bavaria built St. Michael's for the Jesuits. It is the largest Renaissance church north of the Alps and a landmark of the Counter-Reformation.",
-          "In 1590, during construction, the original tower collapsed. The duke took it as a sign from heaven and ordered the church enlarged. Its barrel vault spans about 20 metres — in its day second only to St. Peter's in Rome.",
+          "In 1590, during construction, the original tower collapsed. The duke took it as a sign from heaven and ordered the church enlarged. Its barrel vault spans about 20 metres without supports — only St. Peter's in Rome has a larger one.",
           "Between the two main doors, a bronze Archangel Michael defeats a demon. Down in the crypt lies Ludwig II, Bavaria's “fairy-tale king”."
         ]
       }
@@ -115,7 +115,7 @@ const TRAVELS = {
         year: "Founded 778 (main hall rebuilt 1633)",
         story: [
           "Kiyomizu-dera is said to have been founded in 778, taking its name — “pure water” — from the Otowa waterfall on its grounds. Fire destroyed it many times; the current main hall was rebuilt in 1633 by Tokugawa Iemitsu, the third Tokugawa shogun.",
-          "Its famous stage juts out from the hillside about 13 metres above the ground, held up by eighteen huge zelkova pillars joined without a single nail.",
+          "Its famous stage juts out from the hillside about 13 metres above the ground, held up by a lattice of huge zelkova pillars slotted together with wooden joints instead of nails.",
           "In Japanese, “jumping off the stage at Kiyomizu” means taking the plunge on a bold decision. In 1994 the temple became part of the Historic Monuments of Ancient Kyoto World Heritage Site."
         ]
       },
@@ -145,11 +145,11 @@ const TRAVELS = {
         src: "photos/japan/gion-shirakawa.jpg",
         title: "Gion Shirakawa",
         location: "Gion, Kyoto",
-        year: "Edo period townscape",
+        year: "Rebuilt after 1865",
         story: [
-          "The Shirakawa canal runs through the oldest part of Gion, Kyoto's geisha district. Wooden teahouses with bamboo blinds line its banks, and weeping willows and cherry trees hang over the water.",
-          "These traditional machiya townhouses were built narrow and deep, because property taxes were once based on the width of a building's street frontage.",
-          "The area is a protected historic preservation district. I walked along it early on a spring morning, when the cherry blossoms were just past their peak and the streets were still quiet."
+          "The Shirakawa canal runs through one of the most picturesque corners of Gion, Kyoto's geisha district. Wooden teahouses with bamboo blinds line its banks, and weeping willows and cherry trees hang over the water.",
+          "Most of the wooden teahouses and machiya along the canal date from the rebuilding after a great fire in 1865, when Gion was booming as a pleasure quarter at the end of the Edo period.",
+          "The neighbouring Shinbashi area is a nationally protected preservation district for traditional buildings. I walked along the canal early on a spring morning, with the cherry trees in bloom and the streets still quiet."
         ]
       },
       {
@@ -191,9 +191,9 @@ const TRAVELS = {
         location: "Namba, Osaka",
         year: "Canal dug 1612–1615",
         story: [
-          "Dōtonbori takes its name from Yasui Dōton, the merchant who began digging this canal in 1612. He died in the Siege of Osaka before it was finished; his relatives completed it in 1615.",
+          "Dōtonbori takes its name from Dōton (Nariyasu Dōton, long remembered as Yasui Dōton), who began digging this canal in 1612. He was killed in the Siege of Osaka before it was finished; his partners completed it in 1615.",
           "In the Edo period the canal banks were lined with kabuki and bunraku theatres, and the area has been Osaka's entertainment district ever since — famous for the motto kuidaore, “eat until you drop”.",
-          "The running man on the billboard is the Glico Man, a candy advertisement that has stood here since 1935. Today's sign is an LED version, and copying his victory pose on Ebisu Bridge is a rite of passage for every visitor."
+          "The running man on the billboard is the Glico Man, a caramel advertisement that first went up here in 1935. The sign has been rebuilt several times — the one in my photo is lit by LEDs — and copying his victory pose on Ebisu Bridge is a rite of passage for every visitor."
         ]
       },
       {
@@ -203,7 +203,7 @@ const TRAVELS = {
         year: "1912 (current tower 1956)",
         story: [
           "The first Tsutenkaku went up in 1912 as the centrepiece of the Shinsekai (“New World”) entertainment district. Its design was audacious: an Arc de Triomphe on the bottom and an Eiffel Tower on top.",
-          "Damaged by a nearby fire in 1943, it was dismantled and its steel donated to the war effort. The current tower, designed by “tower doctor” Tachu Naito, was rebuilt in 1956 with money raised by local residents. It stands about 103 metres tall.",
+          "Damaged by a nearby fire in 1943, it was dismantled and its steel donated to the war effort. The current tower, designed by “tower doctor” Tachu Naito, was rebuilt in 1956 by a company set up and funded by local residents. It stands about 103 metres tall (108 m with its spire).",
           "Inside sits Billiken, a lucky god whose feet you rub for good fortune. The Hitachi sign on the tower has been lit since 1957, and the streets below are one of the birthplaces of Osaka's kushikatsu."
         ]
       }
@@ -223,9 +223,9 @@ const TRAVELS = {
         location: "Belém, Lisbon",
         year: "Begun 1501",
         story: [
-          "King Manuel I ordered the monastery around 1501 to celebrate Vasco da Gama's sea route to India. It was largely funded by taxes on the spice trade and took nearly a century to complete.",
+          "King Manuel I began the monastery in 1501 on the spot where Vasco da Gama's crew had prayed before sailing for India. Meant as a royal burial church, it was largely funded by taxes on the spice trade and took nearly a century to complete.",
           "It is the masterpiece of the Manueline style: a Gothic skeleton carved all over with ropes, coral, seaweed and armillary spheres, as if the Age of Discovery had been set in stone.",
-          "Vasco da Gama and Portugal's great poet Luís de Camões are buried here. When the monastery was dissolved in 1834, the monks' custard-tart recipe passed to the bakery next door — today's famous pastéis de Belém. The monastery and Belém Tower became a World Heritage Site in 1983."
+          "Vasco da Gama lies here, beside the tomb of Portugal's great poet Luís de Camões (though whether his real remains are inside is uncertain). When the monastery closed in 1834, its custard-tart recipe ended up at a sugar refinery next door, which began baking them in 1837 — today's famous pastéis de Belém. The monastery and Belém Tower became a World Heritage Site in 1983."
         ]
       },
       {
@@ -236,7 +236,7 @@ const TRAVELS = {
         story: [
           "Built between 1514 and 1519, Belém Tower guarded the mouth of the Tagus and the port of Lisbon — and was the last glimpse of home for countless fleets heading out to sea.",
           "It is richly Manueline too. One of its carvings is a rhinoceros, said to be modelled on the rhino sent from India to the king in 1515 — the same animal Albrecht Dürer made famous in his woodcut.",
-          "The tower originally stood on a small island in the river; as the shoreline shifted, it ended up almost touching the land."
+          "The tower originally stood on a small island in the river; as land was gradually reclaimed along the riverbank, it ended up almost touching the shore."
         ]
       },
       {
@@ -246,7 +246,7 @@ const TRAVELS = {
         year: "1960",
         story: [
           "The monument began as a temporary structure for the Portuguese World Exhibition of 1940. It was rebuilt permanently in concrete and stone in 1960 for the 500th anniversary of the death of Prince Henry the Navigator.",
-          "Standing about 52 metres tall, it is shaped like the prow of a caravel. Henry leads at the front holding a small ship, followed by explorers such as Vasco da Gama and Magellan, along with missionaries and scholars — 33 figures in all.",
+          "Standing 56 metres tall, it is shaped like the prow of a caravel. Henry leads at the front holding a small ship, followed by 32 explorers, kings, missionaries and scholars, among them Vasco da Gama and Magellan.",
           "The square in front is paved with a huge compass rose and world map, marking where and when Portuguese navigators reached each part of the globe."
         ]
       },
@@ -257,7 +257,7 @@ const TRAVELS = {
         year: "1840s",
         story: [
           "A 16th-century monastery once stood on this hilltop, left almost in ruins after the 1755 earthquake. In 1838 the art-loving king consort Ferdinand II bought it and, with German architect Baron von Eschwege, turned it into a dreamlike Romantic palace.",
-          "Gothic, Manueline, Moorish and Renaissance styles are mixed together and painted in bright red, yellow and tile-blue. It's considered a landmark of European Romanticism and is said to have inspired Bavaria's Neuschwanstein. Inside, I found a stone plaque carved “ANNO DE MDCCCXL” — the year 1840.",
+          "Gothic, Manueline, Moorish and Renaissance styles are mixed together and painted in bright red, yellow and tile-blue. It's considered a landmark of European Romanticism, built decades before Bavaria's similar fairy-tale castle, Neuschwanstein. Inside, I found a stone plaque carved “ANNO DE MDCCCXL” — the year 1840.",
           "On a clear day you can see all the way to the Atlantic from the terraces. The Cultural Landscape of Sintra became a World Heritage Site in 1995."
         ]
       },
@@ -280,7 +280,7 @@ const TRAVELS = {
         story: [
           "On 1 November 1755, Lisbon was struck by an earthquake, a tsunami and fire. The lower city was almost entirely destroyed, along with the royal palace by the river. The Marquis of Pombal led the reconstruction, laying out a new grid of streets with earthquake-resistant buildings.",
           "The arch was meant as the symbol of that rebirth, but it wasn't finished until 1873. At the top, Glory crowns Genius and Valour; below stand historic figures including Vasco da Gama and the Marquis of Pombal.",
-          "The Latin inscription “VIRTVTIBVS MAIORVM UT SIT OMNIBVS DOCVMENTO” means “To the virtues of the ancestors, as a lesson to all.” Walk through it and you reach Praça do Comércio, where the royal palace once faced the Tagus."
+          "The Latin inscription “VIRTVTIBVS MAIORVM VT SIT OMNIBVS DOCVMENTO” means “To the virtues of the ancestors, as a lesson to all.” Walk through it and you reach Praça do Comércio, where the royal palace once faced the Tagus."
         ]
       },
       {
@@ -291,7 +291,7 @@ const TRAVELS = {
         story: [
           "In 1147 Afonso Henriques, Portugal's first king, took Lisbon from the Moors and began building this cathedral on the site of the city's mosque. It is the oldest church in Lisbon.",
           "Two square towers and thick walls make it look like a fortress — typical of Romanesque architecture — with a rose window set between them.",
-          "Earthquakes, including the one of 1755, damaged it many times, so the interior is a mix of styles from different eras. Tradition says Lisbon's patron saint, St. Anthony, was baptised here."
+          "Earthquakes, including the one of 1755, damaged it many times, so the interior is a mix of styles from different eras. Tradition says Lisbon's best-loved saint, St. Anthony, was born nearby and baptised here."
         ]
       }
     ]
@@ -311,8 +311,8 @@ const TRAVELS = {
         year: "12th–16th century",
         story: [
           "Notre-Dame de Rouen was built and rebuilt over four centuries, so its façade is a catalogue of Gothic styles — from early Gothic portals to the lace-like Flamboyant stonework of the late Middle Ages.",
-          "The tower on the right is the Tour de Beurre, the “Butter Tower”. Legend has it that it was paid for by wealthy citizens who bought the right to keep eating butter during Lent.",
-          "Claude Monet rented a room opposite in 1892–1894 and painted this façade more than thirty times, at every hour and in every kind of weather. Its cast-iron spire, finished in 1876, reaches 151 metres — the tallest in France — and the heart of Richard the Lionheart is buried inside."
+          "The tower on the right is the Tour de Beurre, the “Butter Tower”. It was paid for with donations from citizens who bought the right to keep eating butter and other dairy foods during Lent.",
+          "In 1892 and 1893 Claude Monet worked from rented rooms facing the cathedral, painting this façade more than thirty times, at every hour and in every kind of weather. Its cast-iron spire, built between 1825 and 1884, reaches 151 metres — the tallest in France — and the heart of Richard the Lionheart is buried inside."
         ]
       },
       {
@@ -321,7 +321,7 @@ const TRAVELS = {
         location: "Rue du Gros-Horloge, Rouen",
         year: "Movement 1389 · dial 1529",
         story: [
-          "The clock's mechanism dates from 1389, making it one of the oldest working clock movements in France. At first it had no face at all — it simply struck the hours from the belfry next door.",
+          "The clock's mechanism dates from 1389, making it one of the oldest clock movements in France, still in working order. At first it had no face at all — it was housed in the belfry next door.",
           "Around 1527–1529 a Renaissance arch was built across the street and the clock was given two great golden dials, one on each side, about 2.5 metres across. There is only one hand, ending in a lamb, the symbol of Rouen; a small sphere above shows the phases of the moon.",
           "That morning I set out specifically to find this street — and it's still the busiest one in the old town, with everyone stopping under the arch to look up."
         ]
@@ -344,7 +344,7 @@ const TRAVELS = {
         year: "1979",
         story: [
           "On 30 May 1431, Joan of Arc was burned at the stake in Rouen's old market square. This church, designed by Louis Arretche and dedicated in 1979, stands right next to the spot.",
-          "Its sweeping roof is meant to evoke both the flames that killed Joan and an upturned Viking ship — a nod to Normandy's Norse past. Inside, the wooden ceiling curves overhead like the hull of a boat.",
+          "Its sweeping roof is often said to evoke the flames of the stake, and an upturned Viking ship — a nod to Normandy's Norse past. Inside, the wooden ceiling curves overhead like the hull of a boat.",
           "The wall of colour comes from much older glass: 16th-century Renaissance windows from the church of Saint-Vincent, which was destroyed in 1944. The windows had been taken down for safekeeping before the bombing, and were built into this modern church instead."
         ]
       },
@@ -363,7 +363,7 @@ const TRAVELS = {
         src: "photos/france/saint-ouen.jpg",
         title: "Saint-Ouen Abbey Church",
         location: "Place du Général-de-Gaulle, Rouen",
-        year: "1318–1549 (west front 1846–1851)",
+        year: "1318–1537 (west front 1846–1851)",
         story: [
           "Saint-Ouen was the church of one of the most powerful Benedictine abbeys in Normandy. The current building was begun in 1318 and finished in the 16th century; it is almost as large as the cathedral, and many consider its soaring, light-filled nave even more elegant.",
           "The twin-spired west front in my photo is younger than it looks: it was only completed in the Gothic Revival style between 1846 and 1851, replacing a façade that had never been finished.",
@@ -374,10 +374,10 @@ const TRAVELS = {
         src: "photos/france/croix-de-pierre.jpg",
         title: "Fontaine de la Croix-de-Pierre",
         location: "Croix-de-Pierre quarter, Rouen",
-        year: "Rebuilt 1861",
+        year: "1517 · rebuilt 19th century",
         story: [
-          "This spire-shaped fountain gave the whole Croix-de-Pierre (“Stone Cross”) quarter its name — an ancient stone cross once stood on this spot.",
-          "What you see is a Neo-Gothic copy: when it was rebuilt in 1861 it was also moved a few metres, while the original Gothic fountain went to the garden of Rouen's Museum of Antiquities. The fountain was destroyed in the fighting of August 1944 and rebuilt again after the war.",
+          "The Croix-de-Pierre (“Stone Cross”) quarter takes its name from a stone cross that stood here from 1197; the fountain, first built beside it in 1517, inherited the name.",
+          "What you see is a Neo-Gothic copy: when it was rebuilt in the 19th century it was also moved a few metres, while the original Gothic fountain went to the garden of Rouen's Museum of Antiquities. The fountain was destroyed in the fighting of August 1944 and rebuilt again after the war.",
           "It used to be a public fountain where residents fetched water, fed by a nearby spring and a cistern 13 metres underground. With the weekend flea market around it, the square is still the heart of the neighbourhood."
         ]
       },
@@ -408,7 +408,7 @@ const TRAVELS = {
         location: "NTHU, Hsinchu",
         year: "Japanese colonial era",
         story: [
-          "Chenggong Lake is the largest of the three lakes on campus, covering about 3 hectares. It was actually dug during the Japanese colonial era as a reservoir for fire-fighting — before Tsing Hua ever arrived in Hsinchu.",
+          "Chenggong Lake is the largest lake on campus, covering about 3 hectares. It was actually dug during the Japanese colonial era as a reservoir for fire-fighting — before Tsing Hua ever arrived in Hsinchu.",
           "In the university's early years the water was so clear that students fished in it for extra dinner. But with no fresh inflow, decades of silt left it murky.",
           "In 2022, backed by about NT$60 million in alumni donations, the university launched the biggest restoration since its founding in Taiwan: dredging, cleaning the water, and adding a waterside dock, a lakeside path and night lighting — making the lake the heart of campus again."
         ]
