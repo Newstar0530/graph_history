@@ -106,7 +106,7 @@ const TRAVELS = {
     flag: "🇯🇵",
     lat: 34.8, lng: 135.6,
     visited: "Kyoto & Osaka",
-    intro: "Spring in Kansai — from Kyoto's wooden stage hanging over a cliff to Osaka's castle keep and the neon-lit Tsutenkaku.",
+    intro: "Spring in Kansai — dawn walks through Kyoto's temples and cherry blossoms, then Osaka's castle, canals and neon-lit streets.",
     photos: [
       {
         src: "photos/japan/kiyomizu-dera.jpg",
@@ -120,6 +120,50 @@ const TRAVELS = {
         ]
       },
       {
+        src: "photos/japan/yasaka-pagoda.jpg",
+        title: "Yasaka Pagoda (Hōkan-ji)",
+        location: "Higashiyama, Kyoto",
+        year: "Rebuilt 1440",
+        story: [
+          "The five-storey pagoda of Hōkan-ji is said to trace back to Prince Shōtoku in the late 6th century, making the temple one of the oldest in Kyoto.",
+          "Fire and lightning destroyed the pagoda several times. The tower standing today was rebuilt in 1440 with the support of Ashikaga Yoshinori, the sixth Muromachi shogun. At about 46 metres, it is one of the tallest wooden pagodas in Japan.",
+          "I took this at dawn, before the crowds arrived — the stone-paved slope of Yasaka-dōri leading up to it is one of the most photographed streets in Kyoto."
+        ]
+      },
+      {
+        src: "photos/japan/yasaka-shrine.jpg",
+        title: "Yasaka Shrine · Dance Hall",
+        location: "Gion, Kyoto",
+        year: "Founded c. 7th century",
+        story: [
+          "Yasaka Shrine, known for centuries as Gion-sha, is the guardian shrine of the Gion district. Its history is thought to reach back to the 7th century.",
+          "In 869, during a deadly epidemic, Emperor Seiwa ordered a ritual to appease the god of this shrine: 66 decorated halberds, one for each province of Japan, were raised in the capital. That ceremony grew into the Gion Matsuri, held every July and one of the most famous festivals in Japan.",
+          "The hall in my photo is the Buden, the shrine's dance stage. Each of its hundreds of paper lanterns carries the name of a local business that donated to the shrine — and at night they are all lit up."
+        ]
+      },
+      {
+        src: "photos/japan/gion-shirakawa.jpg",
+        title: "Gion Shirakawa",
+        location: "Gion, Kyoto",
+        year: "Edo period townscape",
+        story: [
+          "The Shirakawa canal runs through the oldest part of Gion, Kyoto's geisha district. Wooden teahouses with bamboo blinds line its banks, and weeping willows and cherry trees hang over the water.",
+          "These traditional machiya townhouses were built narrow and deep, because property taxes were once based on the width of a building's street frontage.",
+          "The area is a protected historic preservation district. I walked along it early on a spring morning, when the cherry blossoms were just past their peak and the streets were still quiet."
+        ]
+      },
+      {
+        src: "photos/japan/museum-of-kyoto.jpg",
+        title: "Museum of Kyoto · Annex",
+        location: "Sanjō-dōri, Kyoto",
+        year: "1906",
+        story: [
+          "This red-brick building opened in 1906 as the Kyoto branch of the Bank of Japan. It was designed by Tatsuno Kingo — the architect of Tokyo Station — together with his student Nagano Uheiji.",
+          "The bold red brick striped with white stone, together with its corner turrets, is so typical of his work that in Japan it's simply called the “Tatsuno style”.",
+          "It is now a designated Important Cultural Property and serves as the annex of the Museum of Kyoto, hosting exhibitions and concerts. I passed it late at night, when the façade was lit up against the dark sky."
+        ]
+      },
+      {
         src: "photos/japan/osaka-castle.jpg",
         title: "Osaka Castle",
         location: "Osaka",
@@ -128,6 +172,28 @@ const TRAVELS = {
           "In 1583 Toyotomi Hideyoshi began building a dazzling castle on the site of the Ishiyama Hongan-ji temple — a symbol of his power as he unified Japan.",
           "In the Summer Siege of Osaka in 1615, Tokugawa Ieyasu took the castle and the Toyotomi clan was wiped out. The Tokugawa rebuilt it, even re-laying the stone walls, but the keep burned after a lightning strike in 1665.",
           "Today's keep was rebuilt in reinforced concrete in 1931, paid for by donations from Osaka's citizens and modelled on Toyotomi-era folding screens. The top floor is decorated with golden tigers and shachihoko. The glass elevator beside it was added later for accessibility."
+        ]
+      },
+      {
+        src: "photos/japan/miraiza-osakajo.jpg",
+        title: "Miraiza Osaka-jo",
+        location: "Osaka Castle Park, Osaka",
+        year: "1931",
+        story: [
+          "This castle-like building was completed in 1931, the same year Osaka Castle's keep was rebuilt. It was the headquarters of the Imperial Japanese Army's 4th Division — and its turrets and battlements were designed to look like a medieval European fortress.",
+          "After the Second World War it housed the Osaka police headquarters, and from 1960 to 2001 it was the Osaka City Museum.",
+          "After sixteen years standing empty, it reopened in 2017 as Miraiza Osaka-jo, with restaurants, cafés and a rooftop terrace looking out over the castle keep."
+        ]
+      },
+      {
+        src: "photos/japan/dotonbori-glico.jpg",
+        title: "Dōtonbori & the Glico Man",
+        location: "Namba, Osaka",
+        year: "Canal dug 1612–1615",
+        story: [
+          "Dōtonbori takes its name from Yasui Dōton, the merchant who began digging this canal in 1612. He died in the Siege of Osaka before it was finished; his relatives completed it in 1615.",
+          "In the Edo period the canal banks were lined with kabuki and bunraku theatres, and the area has been Osaka's entertainment district ever since — famous for the motto kuidaore, “eat until you drop”.",
+          "The running man on the billboard is the Glico Man, a candy advertisement that has stood here since 1935. Today's sign is an LED version, and copying his victory pose on Ebisu Bridge is a rite of passage for every visitor."
         ]
       },
       {
