@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Les Traces de Nova</title>
+  <meta name="description" content="A spinning globe of the places I've been — and the history behind the buildings I photographed there.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=15">
+</head>
+<body>
+  <!-- Background: nebula, stars, shooting star -->
+  <div class="nebula" aria-hidden="true"></div>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="shooting-star" aria-hidden="true"></div>
+
+  <div id="globe"></div>
+
+  <!-- Title -->
+  <header class="hero">
+    <p class="greeting"><span id="hero-hello">Hello</span></p>
+    <h1>Les Traces de Nova</h1>
+  </header>
+
+  <!-- Visited list -->
+  <aside class="visited" id="visited">
+    <button class="visited-toggle" id="visited-toggle" aria-expanded="true">
+      <span>My Journeys</span>
+      <span class="stats" id="stats"></span>
+    </button>
+    <ul id="visited-list"></ul>
+  </aside>
+
+  <!-- A country's photos, fanned out in a ring -->
+  <section class="stage" id="stage" aria-hidden="true">
+    <header class="stage-head">
+      <div class="stage-flag" id="stage-flag"></div>
+      <h2 id="stage-title"></h2>
+      <p class="stage-meta" id="stage-meta"></p>
+      <p class="stage-intro" id="stage-intro"></p>
+    </header>
+    <div class="scatter" id="scatter"></div>
+    <button class="icon-btn stage-close" id="stage-close" aria-label="Back to the globe">✕</button>
+    <p class="stage-hint">Click a photo for its story · Click anywhere else to return</p>
+  </section>
+
+  <!-- Photo story -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog">
+    <div class="modal-card" id="modal-card">
+      <button class="icon-btn modal-close" id="modal-close" aria-label="Close">✕</button>
+      <figure class="modal-photo">
+        <img id="modal-img" alt="">
+        <button class="nav prev" id="modal-prev" aria-label="Previous photo">‹</button>
+        <button class="nav next" id="modal-next" aria-label="Next photo">›</button>
+      </figure>
+      <article class="modal-body" id="modal-body">
+        <p class="modal-kicker" id="modal-kicker"></p>
+        <h3 id="modal-title"></h3>
+        <div class="modal-story" id="modal-story"></div>
+      </article>
+    </div>
+  </div>
+
+  <!-- Hover card that follows the mouse over a country -->
+  <div class="hover-card" id="hover-card" aria-hidden="true"><div class="hc-inner"></div></div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/globe.gl@2.45.3/dist/globe.gl.min.js"></script>
+  <script src="js/data.js?v=15"></script>
+  <script src="js/app.js?v=15"></script>
+</body>
+</html>
