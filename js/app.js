@@ -114,7 +114,9 @@
     controls.enableZoom = false;
     document.body.classList.add("embedded");
   }
-  globe.pointOfView({ lat: 25, lng: 60, altitude: 2.4 });
+  // embedded in the CV the frame is shorter, so pull the camera back to keep the whole globe in view
+  const HOME_ALT = embedded ? 2.9 : 2.4;
+  globe.pointOfView({ lat: 25, lng: 60, altitude: HOME_ALT });
 
   // 使用者拖曳時暫停旋轉，放開後一段時間再恢復
   controls.addEventListener("start", () => { controls.autoRotate = false; clearTimeout(resumeTimer); });
@@ -418,7 +420,7 @@
       $("stage").classList.remove("open");
       $("stage").setAttribute("aria-hidden", "true");
       document.body.classList.remove("stage-open");
-      globe.pointOfView({ altitude: 2.4 }, 1000);
+      globe.pointOfView({ altitude: HOME_ALT }, 1000);
     }, 300);
     document.querySelectorAll("#visited-list button").forEach((b) => b.classList.remove("active"));
     scheduleResume();

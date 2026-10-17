@@ -554,3 +554,8 @@ body.stage-open .visited { opacity: 0; pointer-events: none; transform: translat
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* ---------- Embedded in the CV (shorter frame): smaller title so it doesn't cover the globe ---------- */
+body.embedded .hero { top: 16px; }
+body.embedded .greeting { font-size: clamp(16px, 2vw, 24px); }
+body.embedded .hero h1 { font-size: clamp(24px, 3.2vw, 40px); }
